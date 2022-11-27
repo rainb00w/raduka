@@ -12,7 +12,6 @@ export default function Home() {
         <a href="https://www.youtube.com/@OleksandrRaduka">Youtube</a>
         <a href="https://www.instagram.com/o.raduka/">Instagram</a>
         <a href="https://t.me/o_raduka">Telegram</a>
-        test
       </div>
     </div>
   );
