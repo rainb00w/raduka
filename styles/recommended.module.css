@@ -1,0 +1,16 @@
+.recommended_container {
+  margin: 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommended_container__header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.recommended_container__text {
+  font-size: 1.4rem;
+}

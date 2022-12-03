@@ -4,9 +4,9 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <div class={styles.main_container}>
-        <div class={styles.main_container__header}>
+    <div className="container">
+      <div className={styles.main_container}>
+        <div className={styles.main_container__header}>
           <h4>Be kind</h4>
         </div>
         <a href="https://www.youtube.com/@OleksandrRaduka">Youtube</a>
