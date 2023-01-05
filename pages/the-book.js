@@ -65,11 +65,7 @@ export default function TheBook() {
           </em>
           <br></br>
         </p>
-        <p>
-          <br></br>
-          Для заказа печатной версии книги, пожалуйста, воспользуйтесь
-          доступными контактами. <br></br> <br></br>
-        </p>
+
         <div className={styles.links}>
           <a
             href="https://www.icloud.com/iclouddrive/0beQKAJRpz9LSWBs18wtN6XuQ#gosil_share"
@@ -80,6 +76,11 @@ export default function TheBook() {
           <a href="/" className={styles.link}>
             Вернуться на главную
           </a>
+          <p>
+            <br></br>
+            Для заказа печатной версии книги, пожалуйста, воспользуйтесь
+            доступными контактами. <br></br> <br></br>
+          </p>
         </div>
       </div>
     </div>
