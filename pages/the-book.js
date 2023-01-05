@@ -63,7 +63,6 @@ export default function TheBook() {
             высокое — то, что сердцем, духа глазами, видно.
             <br></br>
           </em>
-          <br></br>
         </p>
 
         <div className={styles.links}>
@@ -77,7 +76,7 @@ export default function TheBook() {
           <p>
             <br></br>
             Для заказа печатной версии книги, пожалуйста, воспользуйтесь
-            доступными контактами. <br></br>
+            доступными контактами. <br></br> <br></br>
           </p>
 
           <a href="/" className={styles.link}>
