@@ -59,7 +59,6 @@ export default function Recommended() {
           <h4 className={styles.header}> Религии мира </h4>
           <ul>
             <li>Курс религиозных идей А.Б. Зубова </li>
-            <li>“Священный Коран” Поэтический перевод. Т.Шумовский</li>
           </ul>
           <h4 className={styles.header}>Академичоское образование </h4>
           <ul>
