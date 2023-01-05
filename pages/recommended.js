@@ -19,7 +19,7 @@ export default function Recommended() {
           </p>
           <p>
             Аудио и текстовые версии в телеграмм -
-            <a href="hhttps://t.me/o_raduka/210" className={styles.link}>
+            <a href="https://t.me/o_raduka/210" className={styles.link}>
               - перейти
             </a>{" "}
           </p>
