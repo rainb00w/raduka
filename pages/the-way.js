@@ -58,7 +58,11 @@ export default function TheWay() {
           Чувственное тело : музыка, человеческое окружение и отношения.
           <br></br>Умственное тело : книги, разговоры, цели и идеалы.
         </p>
-        <img src="bodys.jpg" alt="invisibles bodys scheme"></img>
+        <img
+          style={{ maxWidth: "100%" }}
+          src="bodys.jpg"
+          alt="invisibles bodys scheme"
+        ></img>
         <p className={styles.paragraph}>
           <strong>
             Внешнее развитие выходит за пределы личности и за пределы трёх

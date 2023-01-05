@@ -6,11 +6,11 @@ export default function TheBook() {
   return (
     <div className="container">
       <div className={styles.main_container}>
-        {/* <img
-          style={{ maxWidth: "650px" }}
+        <img
+          style={{ maxWidth: "100%" }}
           src="aaron-burden-AXqMy8MSSdk-unsplash.webp"
           alt="logo"
-        /> */}
+        />
 
         {/* <p>
         Я – не художник слова,И всё, что я скажу, уже и так известно.А потому,
