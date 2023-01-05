@@ -1,16 +1,17 @@
 import styles from "../styles/theBook.module.css";
 import bookImage from "../public/aaron-burden-AXqMy8MSSdk-unsplash.webp";
+import Image from "next/image";
 
 export default function TheBook() {
   return (
     <div className="container">
       <div className={styles.main_container}>
-        {" "}
-        <img
+        {/* <img
+          style={{ maxWidth: "650px" }}
           src="aaron-burden-AXqMy8MSSdk-unsplash.webp"
           alt="logo"
-          height={300}
-        />
+        /> */}
+
         {/* <p>
         Я – не художник слова,И всё, что я скажу, уже и так известно.А потому,
         не помышляя о пользе для других,Я пишу это, дабы утвердиться в
