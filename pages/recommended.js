@@ -5,16 +5,29 @@ export default function Recommended() {
     <div className="container">
       <div className={styles.recommended_container}>
         <div className={styles.recommended_container__header}>
-          <h4>Список рекомендованой литературы:</h4>
+          <h4 className={styles.header}>Список рекомендованой литературы:</h4>
         </div>
-
-        <div className={styles.recommended_container__text}>
+        <div className={styles.links}>
           <p>
-            Подобно тому как песчинки наполняют пустыню, подобно тому как капли
-            наполняют океан, так и люди дополняя друг друга, жизни простор
-            составляют.
+            Аудиокниги на youtube -
+            <a
+              href="https://www.youtube.com/@OleksandrRaduka"
+              className={styles.link}
+            >
+              - перейти
+            </a>
           </p>
-          <h5>Избранные Священные Писания востока и запада :</h5>
+          <p>
+            Аудио и текстовые версии в телеграмм -
+            <a href="hhttps://t.me/o_raduka/210" className={styles.link}>
+              - перейти
+            </a>{" "}
+          </p>
+        </div>
+        <div className={styles.recommended_container__text}>
+          <h4 className={styles.header}>
+            Избранные Священные Писания востока и запада :
+          </h4>
           <ul>
             <li>Книга Иова </li>
             <li>Книга Екклесиаста</li>
@@ -25,7 +38,7 @@ export default function Recommended() {
             <li>Аштавакра гита</li>
             <li>Бхагавад-Гита – Божественная Песнь</li>
           </ul>
-          <h5>Художественные книги</h5>
+          <h4 className={styles.header}>Художественные книги</h4>
           <ul>
             <li>«Две жизни» Конкордия Антарова ( YouTube )</li>
             <li>
@@ -36,7 +49,7 @@ export default function Recommended() {
             <li>«Основы Буддизма» Рерих Елена Ивановна ( Youtube ) </li>
             <li> «О божественных тайнах и о духовной жизни» Исаак Сирин</li>
           </ul>
-          <h5> Эзотерическое знание </h5>
+          <h4 className={styles.header}> Эзотерическое знание </h4>
           <ul>
             <li>«Посвящение» Элизабет Хейч</li>
             <li>«У ног учителя» Кришнамурти Джидду</li>
@@ -46,19 +59,23 @@ export default function Recommended() {
             <li>«Музыка Снежных Вершин» Джецюн Миларепа</li>
             <li>«Священные мысли учителя» Беинса Дуно ( PDF )</li>
           </ul>
-          <h5> Религии мира </h5>
+          <h4 className={styles.header}> Религии мира </h4>
           <ul>
             <li>Курс религиозных идей А.Б. Зубова ( YouTube )</li>
             <li>“Священный Коран” Поэтический перевод. Т.Шумовский</li>
           </ul>
-          <h5>Академичоское образование </h5>
+          <h4 className={styles.header}>Академичоское образование </h4>
           <ul>
             <li>Открытое образование</li>
             <li>Coursera</li>
             <li>Edx</li>
             <li>Wondrium</li>
           </ul>
-        </div>
+        </div>{" "}
+        <a href="/" className={styles.link}>
+          {" "}
+          Вернуться на главную
+        </a>
       </div>
     </div>
   );
