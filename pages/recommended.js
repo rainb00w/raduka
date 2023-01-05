@@ -18,7 +18,7 @@ export default function Recommended() {
             </a>
           </p>
           <p>
-            Аудио и текстовые версии в телеграмм -
+            Аудио и текст в телеграмм -
             <a href="https://t.me/o_raduka/210" className={styles.link}>
               - перейти
             </a>{" "}
