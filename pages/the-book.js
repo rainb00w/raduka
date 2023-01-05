@@ -73,14 +73,16 @@ export default function TheBook() {
           >
             <strong>Скачать книгу </strong>
           </a>
-          <a href="/" className={styles.link}>
-            Вернуться на главную
-          </a>
+
           <p>
             <br></br>
             Для заказа печатной версии книги, пожалуйста, воспользуйтесь
-            доступными контактами. <br></br> <br></br>
+            доступными контактами. <br></br>
           </p>
+
+          <a href="/" className={styles.link}>
+            Вернуться на главную
+          </a>
         </div>
       </div>
     </div>
