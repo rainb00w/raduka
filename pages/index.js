@@ -14,13 +14,29 @@ export default function Home() {
             <br></br> Вот учение Будд <br></br> ______________
           </h6>
         </div>
-        <a href="https://www.youtube.com/@OleksandrRaduka">Youtube</a>
-        <a href="https://www.instagram.com/o.raduka/">Instagram</a>
-        <a href="https://t.me/o_raduka">Telegram</a>
+        <a
+          className={styles.link}
+          href="https://www.youtube.com/@OleksandrRaduka"
+        >
+          Youtube
+        </a>
+        <a className={styles.link} href="https://www.instagram.com/o.raduka/">
+          Instagram
+        </a>
+        <a className={styles.link} href="https://t.me/o_raduka">
+          Telegram
+        </a>
+        <br></br>______________
         <br></br>
-        <a href="/recommended">Рекомендованная литература</a>
-        <a href="/the-way">Путь. Краткое изложение</a>
-        <a href="/the-book">Книга "Говорящий о солнце и луне"</a>
+        <a className={styles.link} href="/recommended">
+          Рекомендованная литература
+        </a>
+        <a className={styles.link} href="/the-way">
+          Путь. Краткое изложение
+        </a>
+        <a className={styles.link} href="/the-book">
+          Книга "Говорящий о солнце и луне"
+        </a>
       </div>
     </div>
   );
