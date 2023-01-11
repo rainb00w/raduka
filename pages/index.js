@@ -34,9 +34,9 @@ export default function Home() {
         <a className={styles.link} href="/the-way">
           Путь. Краткое изложение
         </a>
-        <a className={styles.link} href="/the-book">
+        {/* <a className={styles.link} href="/the-book">
           Книга "Говорящий о солнце и луне"
-        </a>
+        </a> */}
       </div>
     </div>
   );
