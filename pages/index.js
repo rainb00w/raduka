@@ -32,11 +32,11 @@ export default function Home() {
           Рекомендованная литература
         </a>
         <a className={styles.link} href="/the-way">
-          Путь. Краткое изложение
+          Тонкие тела и практики.
         </a>
-        {/* <a className={styles.link} href="/the-book">
+        <a className={styles.link} href="/the-book">
           Книга "Говорящий о солнце и луне"
-        </a> */}
+        </a>
       </div>
     </div>
   );
