@@ -9,7 +9,7 @@ export default function Home() {
       <div className={styles.main_container}>
         <div className={styles.main_container__header}>
           <img src="ankh.jpeg" alt="logo" width={100} height={100} />
-          <h6>Ибо жизнь твоя, есть продолжение жизни Бога.</h6>
+          <h6>Ибо жизнь твоя есть продолжение жизни Бога.</h6>
           {/* <h6>
             Оставь всякое зло <br></br> Учись добру <br></br> Очисть свой ум
             <br></br> Вот учение Будд <br></br> ______________
