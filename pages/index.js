@@ -1,18 +1,19 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import logoImage from "../public/IMG_0681.webp";
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import logoImage from '../public/IMG_0681.webp';
 
 export default function Home() {
   return (
     <div className="container">
       <div className={styles.main_container}>
         <div className={styles.main_container__header}>
-          <img src="IMG_0681.webp" alt="logo" width={100} height={100} />
-          <h6>
+          <img src="ankh.jpeg" alt="logo" width={100} height={100} />
+          <h6>Ибо жизнь твоя, есть продолжение жизни Бога.</h6>
+          {/* <h6>
             Оставь всякое зло <br></br> Учись добру <br></br> Очисть свой ум
             <br></br> Вот учение Будд <br></br> ______________
-          </h6>
+          </h6> */}
         </div>
         <a
           className={styles.link}
