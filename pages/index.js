@@ -29,6 +29,9 @@ export default function Home() {
         </a>
         <br></br>______________
         <br></br>
+        <a className={styles.link} href="/the_course">
+          Курс "Основы духовности"
+        </a>
         <a className={styles.link} href="/recommended">
           Рекомендованная литература
         </a>
