@@ -17,3 +17,16 @@
 .link {
   font-size: 14px;
 }
+
+.text {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.center {
+  padding: 20px 10px;
+  display: flex;
+  align-tems: center;
+  justify-content: center;
+}
