@@ -37,3 +37,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.form_container {
+  height: 360px;
+}
