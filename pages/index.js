@@ -32,6 +32,9 @@ export default function Home() {
         <a className={styles.link} href="/the_course">
           Курс "Основы духовности"
         </a>
+        <a className={styles.link} href="https://t.me/+ixuVCWhPbXw5NWZi">
+          Практика цигун
+        </a>
         <a className={styles.link} href="/recommended">
           Рекомендованная литература
         </a>
