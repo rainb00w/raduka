@@ -9,7 +9,7 @@ export default function Home() {
       <div className={styles.main_container}>
         <div className={styles.main_container__header}>
           <img src="ankh.jpeg" alt="logo" width={100} height={100} />
-          <h6>Masters of eternity</h6>
+          <h6>Masters of Eternity</h6>
           {/* <h6>
             Оставь всякое зло <br></br> Учись добру <br></br> Очисть свой ум
             <br></br> Вот учение Будд <br></br> ______________
@@ -24,11 +24,11 @@ export default function Home() {
         <a className={styles.link} href="https://www.instagram.com/o.raduka/">
           Instagram
         </a>
-        <a className={styles.link} href="https://t.me/o_raduka">
-          Группа с литературой
-        </a>
         <a className={styles.link} href="https://t.me/qigong_raduka">
           Группа практики
+        </a>
+        <a className={styles.link} href="https://t.me/o_raduka">
+          Литература
         </a>
         <br></br>______________
         <br></br>
