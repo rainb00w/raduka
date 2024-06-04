@@ -9,7 +9,7 @@ export default function Home() {
       <div className={styles.main_container}>
         <div className={styles.main_container__header}>
           <img src="ankh.jpeg" alt="logo" width={100} height={100} />
-          <h6>Ибо жизнь твоя есть продолжение жизни Бога.</h6>
+          <h6>Masters of eternity</h6>
           {/* <h6>
             Оставь всякое зло <br></br> Учись добру <br></br> Очисть свой ум
             <br></br> Вот учение Будд <br></br> ______________
@@ -25,19 +25,22 @@ export default function Home() {
           Instagram
         </a>
         <a className={styles.link} href="https://t.me/o_raduka">
-          Telegram
+          Группа с литературой
+        </a>
+        <a className={styles.link} href="https://t.me/qigong_raduka">
+          Группа практики
         </a>
         <br></br>______________
         <br></br>
-        <a className={styles.link} href="/the_course">
+        {/* <a className={styles.link} href="/the_course">
           Курс "Основы духовности"
-        </a>
-        <a className={styles.link} href="https://t.me/+ixuVCWhPbXw5NWZi">
+        </a> */}
+        {/* <a className={styles.link} href="https://t.me/+ixuVCWhPbXw5NWZi">
           Практика цигун
-        </a>
-        <a className={styles.link} href="/recommended">
+        </a> */}
+        {/* <a className={styles.link} href="/recommended">
           Рекомендованная литература
-        </a>
+        </a> */}
         <a className={styles.link} href="/the-way">
           Тонкие тела и практики.
         </a>
