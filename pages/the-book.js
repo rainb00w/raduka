@@ -67,7 +67,7 @@ export default function TheBook() {
 
         <div className={styles.links}>
           <a
-            href="https://www.icloud.com/iclouddrive/0beQKAJRpz9LSWBs18wtN6XuQ#gosil_share"
+            href="https://drive.google.com/file/d/16Liuc4wi-L4-iAToKYuFjKe34eZYiX41/view?usp=sharing"
             className={styles.link}
           >
             <strong>Скачать книгу </strong>
